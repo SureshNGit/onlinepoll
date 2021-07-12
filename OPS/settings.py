@@ -76,13 +76,21 @@ WSGI_APPLICATION = 'OPS.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'onlinepoll',
+    #     'USER': 'suresh',
+    #     'PASSWORD': 'Summer@2021',
+    #     'HOST': '127.0.0.1',
+    #     'PORT': '5432'
+    # }
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'onlinepoll',
-        'USER': 'suresh',
-        'PASSWORD': 'Summer@2021',
-        'HOST': '127.0.0.1',
-        'PORT': '5432'
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'd1p7k7f0pa84qa',
+            'USER': 'imlkozqmxolmqi',
+            'PASSWORD': 'ad42d88891b3fd715816fa4320def37b25ea860dbec31b644f7d95fe251e3184',
+            'HOST': 'ec2-3-226-134-153.compute-1.amazonaws.com',
+            'PORT': '5432'
     }
 }
 
